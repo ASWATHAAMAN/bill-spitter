@@ -36,62 +36,63 @@ img {
   height: auto;
   object-fit: contain;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.billing-section{
+.billing-section {
   background-color: #fff;
   padding: 2rem 3rem;
   border-radius: 12px;
+  box-shadow: 5px 25px 30px lightslategray;
 }
-.head{
- text-align: center;
- font-size: 15px; 
+.head {
+  text-align: center;
+  font-size: 15px;
 }
-.hero-section{
+.hero-section {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 2.5rem;
 }
-.para-heading{
+.para-heading {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
   padding-bottom: 1rem;
 }
-.section-one{
+.section-one {
   text-align: center;
   padding-bottom: 1rem;
 }
-.bill-amount{
+.bill-amount {
   border: none;
   border-bottom: 2px solid black;
   font-size: 14px;
   margin-left: 5px;
 }
-.section-two{
+.section-two {
   text-align: center;
   padding-bottom: 1rem;
 }
-.groups{
+.groups {
   border: none;
   border-bottom: 2px solid black;
   font-size: 14px;
   margin-left: 5px;
 }
-.options{
+.options {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 4rem;
 }
-.calculate{
+.calculate {
   background-color: darkgreen;
   padding: 8px 16px;
   border-radius: 20px;
@@ -100,7 +101,10 @@ img {
   font-weight: 500;
   cursor: pointer;
 }
-.reset{
+.calculate:hover {
+  background-color: rgb(0, 100, 0, 0.5);
+}
+.reset {
   background-color: darkgreen;
   padding: 8px 25px;
   border-radius: 20px;
@@ -108,4 +112,7 @@ img {
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
+}
+.reset:hover {
+  background-color: rgb(0, 100, 0, 0.5);
 }

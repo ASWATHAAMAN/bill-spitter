@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BILL SPLITTER</title>
-    <link rel="shortcut icon" href="./images/dress-code.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/dress-code.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link
@@ -19,24 +23,40 @@
   <body>
     <div class="container">
       <div class="billing-section">
-      <header class="head">
-        <h1 class="heading">Bill Splitter</h1>
-      </header>
-      <div class="hero-section">
-        <p class="para-heading">Enter total amount</p>
-        <div class="section-one">
-        <label for="rupees" class="amounts"><i class="fa-solid fa-indian-rupee-sign"></i></label>
-        <input type="text" id="rupees" name="amount" class="bill-amount" placeholder="Total Bill Amount">
+        <header class="head">
+          <h1 class="heading">Bill Splitter</h1>
+        </header>
+        <div class="hero-section">
+          <p class="para-heading" id="para-heading">Enter total amount</p>
+          <div class="section-one">
+            <label for="rupees" class="amounts"
+              ><i class="fa-solid fa-indian-rupee-sign"></i
+            ></label>
+            <input
+              type="text"
+              id="rupees"
+              name="amount"
+              class="bill-amount"
+              placeholder="Total Bill Amount"
+            />
+          </div>
+          <div class="section-two">
+            <label for="people" class="numbers"
+              ><i class="fa-solid fa-users"></i
+            ></label>
+            <input
+              type="text"
+              id="people"
+              name="groups"
+              class="groups"
+              placeholder="Number of People"
+            />
+          </div>
         </div>
-         <div class="section-two">
-        <label for="people" class="numbers"><i class="fa-solid fa-users"></i></label>
-        <input type="text" id="people" name="groups" class="groups" placeholder="Number of People">
-        </div>
-      </div>
-      <footer class="options">
-        <span class="calculate">Calculate</span>
-        <span class="reset">Reset</span>
-      </footer>
+        <footer class="options">
+          <span class="calculate" id="calculate">Calculate</span>
+          <span class="reset" id="reset">Reset</span>
+        </footer>
       </div>
     </div>
     <script src="./scripts/script.js"></script>
