@@ -11,5 +11,9 @@ const resetEl = document.getElementById(`reset`);
 // functions
 
 // addEvent Listeners
+rupeesEl.addEventListener(`click`,() => {
+  let billAmount = rupeesEl.classList.value
+  
+})
 
 // initial settings
